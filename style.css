@@ -1,0 +1,204 @@
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fffdf0;
+            color: #1a1a1a;
+            line-height: 1.6;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        img {
+            max-width: 100%;
+            display: block;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        
+        .small {
+            max-width: 700px;
+        }
+        
+        .center {
+            text-align: center;
+        }
+        
+        section {
+            padding: 70px 0;
+        }
+        
+        .gray {
+            background-color: #f8f3c4;
+        }
+        
+        h2 {
+            font-size: 32px;
+            margin: 0 0 30px 0;
+        }
+        
+        .tag {
+            color: #e61e2a;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 13px;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+        /* Header */
+        
+        header {
+            background-color: #0a6b3c;
+            border-bottom: 4px solid #f5ee31;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+        }
+        
+        .logo {
+            font-size: 22px;
+            font-weight: bold;
+            color: #f5ee31;
+            text-decoration: none;
+        }
+        
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        
+        nav a:hover {
+            color: #f5ee31;
+        }
+        /* Hero */
+        
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+        
+        .hero h1 {
+            font-size: 48px;
+            line-height: 1.2;
+            margin: 0 0 15px 0;
+            color: #0a6b3c;
+        }
+        
+        .hero p {
+            color: #4a4a4a;
+        }
+        
+        .hero img {
+            border-radius: 16px;
+            border: 4px solid #1a1a1a;
+        }
+        
+        .button {
+            display: inline-block;
+            background-color: #f5ee31;
+            color: #1a1a1a;
+            font-weight: bold;
+            padding: 12px 28px;
+            border-radius: 30px;
+            border: 3px solid #1a1a1a;
+            text-decoration: none;
+            margin-top: 15px;
+        }
+        
+        .button:hover {
+            background-color: #e61e2a;
+            color: #ffffff;
+        }
+        /* About */
+        
+        #about p {
+            color: #4a4a4a;
+            font-size: 18px;
+        }
+        /* Grid and cards */
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 20px;
+        }
+        
+        .grid.three {
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        }
+        
+        .card {
+            background-color: white;
+            border-radius: 14px;
+            border: 3px solid #1a1a1a;
+            overflow: hidden;
+        }
+        
+        .card-text {
+            padding: 15px 20px 20px 20px;
+        }
+        
+        .card h3 {
+            margin: 0 0 5px 0;
+            color: #0a6b3c;
+        }
+        
+        .card p {
+            margin: 0 0 8px 0;
+            color: #4a4a4a;
+            font-size: 15px;
+        }
+        
+        .card .price {
+            color: #e61e2a;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        
+        .box {
+            background-color: white;
+            border: 3px solid #0a6b3c;
+            border-radius: 14px;
+            padding: 25px;
+        }
+        
+        .box h3 {
+            margin: 0 0 8px 0;
+            color: #0a6b3c;
+        }
+        
+        .box p {
+            margin: 0;
+            color: #4a4a4a;
+        }
+        /* Hours */
+        
+        .hours {
+            background-color: white;
+            border: 3px solid #1a1a1a;
+            border-radius: 14px;
+            padding: 10px 25px;
+        }
+        
+        .hours p {
+            display: flex;
+        }
